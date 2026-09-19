@@ -1,0 +1,20 @@
+/* Bloom tokens (docs/design/video-to-mp3/final/tokens.md) */
+:root{--bg:#F6F4FB;--surface:#FFFFFF;--line:#DAD4EA;--fg:#17142A;--fg2:#5E5877;--cobalt:#2B45E8;--on-cobalt:#FFFFFF;--mint:#6FE3C0;--on-mint:#00382A;--butter:#FFD75E;--pink:#FF7EB3}
+@media (prefers-color-scheme:dark){:root{--bg:#100E1C;--surface:#1B1830;--line:#34304F;--fg:#F1EEFF;--fg2:#A9A3C4;--cobalt:#7185FF;--on-cobalt:#0A0F40}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 "Google Sans Flex","Google Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.page{max-width:760px;margin:0 auto;padding:32px 16px 64px}
+h1{font-size:2rem;line-height:1.2;margin:.2em 0 .3em}
+h2{font-size:1.2rem;margin:1.8em 0 .4em}
+a{color:var(--cobalt)}
+.meta,.crumb{color:var(--fg2);font-size:.9rem}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:20px 22px;margin:20px 0}
+.card.mint{background:var(--mint);color:var(--on-mint);border:0}
+.card.mint h2{margin-top:0}
+.hero{background:var(--cobalt);color:var(--on-cobalt);border-radius:28px;padding:32px 24px;margin:8px 0 24px}
+.hero h1{margin:0 0 .3em}
+.apps{display:grid;gap:16px}
+.app{display:flex;gap:16px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:16px}
+.app img{width:64px;height:64px;border-radius:16px}
+.btn{display:inline-block;background:var(--butter);color:#3A2C00;text-decoration:none;font-weight:600;padding:10px 18px;border-radius:999px}
+footer{color:var(--fg2);font-size:.85rem;margin-top:40px}
